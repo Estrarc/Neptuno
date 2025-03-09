@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    position: relative; /* Asegura que el contenido se ajuste con el footer */
-    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
+    position: relative;
+    min-height: 100vh;
 }
 .background-image {
     background: url('466775.jpg') no-repeat center center/cover;
@@ -36,7 +36,7 @@ body {
 .main-content {
     padding: 50px;
     text-align: center;
-    padding-bottom: 80px; /* Espacio adicional para evitar que el footer cubra la tabla */
+    padding-bottom: 80px;
 }
 .main-content h2 {
     color: #333;
@@ -58,7 +58,7 @@ body {
     margin-left: 20px;
 }
 .mission-logo {
-    width: 100px; /* Ajusta el tamaño según el logo que uses */
+    width: 100px;
     height: auto;
 }
 /* Estilo para "Áreas de Estudio" y "Fases de Desarrollo" */
@@ -93,6 +93,49 @@ table {
 table, th, td {
     border: 1px solid #333;
     padding: 10px;
+}
+/* Estilo para el formulario de contacto */
+.contact {
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 80px; /* Espacio para evitar que el footer cubra el formulario */
+}
+.contact h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.contact form {
+    max-width: 500px; /* Limita el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario */
+    text-align: left; /* Alinea etiquetas e inputs a la izquierda dentro del contenedor centrado */
+}
+.contact label {
+    display: block; /* Cada etiqueta en una nueva línea */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
+}
+.contact input[type="submit"] {
+    background-color: #1b263b; /* Color del botón  */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #c1c1c1;
+    border-radius: 5px;
+    display: block; /* Centra el botón */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+.contact input[type="submit"]:hover {
+    background-color: #0d1b2a; /* Efecto hover para el botón */
 }
 footer {
     background-color: #333;

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Asegura que el contenido se ajuste con el footer */
+    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
+}
+.background-image {
+    background: url('466775.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background-image h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.background-image p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px 0;
+}
+.buttons button {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #333;
+}
+.main-content {
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 80px; /* Espacio adicional para evitar que el footer cubra la tabla */
+}
+.main-content h2 {
+    color: #333;
+}
+/* Estilo para "Detalles de la Misión" */
+.mission-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.text-content {
+    text-align: left;
+    flex: 1;
+}
+.logo-content {
+    flex: 0 0 auto;
+    margin-left: 20px;
+}
+.mission-logo {
+    width: 100px; /* Ajusta el tamaño según el logo que uses */
+    height: auto;
+}
+/* Estilo para "Áreas de Estudio" y "Fases de Desarrollo" */
+.study-phases {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+}
+.study-column, .phases-column {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+.column-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.custom-list {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+.custom-list li {
+    margin-bottom: 10px;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
